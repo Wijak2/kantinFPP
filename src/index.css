@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: #6b4226; /* warna utama */
+  background-color: #FEFBF6; /* coklat muda */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #6b4226;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #8b5e3c; /* coklat lebih tua saat hover */
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #FEFBF6; /* diperbaiki dari #f5f0e6 ke #FEFBF6 */
+  color: #6b4226;
+}
+
+/* Tambahkan wrapper untuk konten tengah */
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.1;
+  color: #4b2e1a;
+}
+
+button {
+  color: #fff;
+  background-color: #6b4226;
+  border-radius: 8px;
+  border: none;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+button:hover {
+  background-color: #4b2e1a;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #6b4226;
+    background-color: #FEFBF6; /* disamakan */
+  }
+  a:hover {
+    color: #8b5e3c;
+  }
+  button {
+    background-color: #6b4226;
+  }
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #4b2e1a; /* navbar coklat tua */
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #ffffff;
+}
+
+input, textarea {
+  border: 1px solid #bfa58a;
+  border-radius: 6px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  background-color: #fefbf6;
+  color: #4b2e1a;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #4b2e1a; /* coklat tua */
+  box-shadow: 0 0 0 2px rgba(75, 46, 26, 0.2);
+}
