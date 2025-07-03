@@ -10,7 +10,7 @@ function LandingPage() {
       {/* Hero Image + Overlay Text */}
       <div className="w-full max-w-4xl relative mb-10 rounded-3xl overflow-hidden shadow-lg">
         <img
-          src="https://ptnzchpzjbzjxvvswzzp.supabase.co/storage/v1/object/sign/tenantimg/IMG_8140%20(1).JPG?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8xNTZjN2RmYS1kZGJhLTQ4M2ItYTJlOC02ODgzOGRlZjA2ZGUiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ0ZW5hbnRpbWcvSU1HXzgxNDAgKDEpLkpQRyIsImlhdCI6MTc0OTgyNjI5MiwiZXhwIjoxNzgxMzYyMjkyfQ.jl1RgpIZ87WwM4G4f4jm6PiOhhG1a18_dGHZuA_yr7s"
+          src="https://ptnzchpzjbzjxvvswzzp.supabase.co/storage/v1/object/sign/tenantimg/IMG_8140%20(1).JPG?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV8yZDA5OWU0Ni0wZmFmLTRjNjgtYjBjZS04NDU2MmJiM2UyNDAiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJ0ZW5hbnRpbWcvSU1HXzgxNDAgKDEpLkpQRyIsImlhdCI6MTc1MTU2NDE5NiwiZXhwIjoxNzgzMTAwMTk2fQ.XsnCO9J5VKaK4y-am4DnSxjcrUCgCfIM70_XMMDpRY4"
           alt="Kantin FPP"
           className="w-full h-64 object-cover"
         />
